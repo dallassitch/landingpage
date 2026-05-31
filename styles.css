@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    flex-direction: column;
+    border: 16px;
+    margin: 0;
+}
+
+.firstSection {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 4px;
+}
+
+.header,
+#description {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.headerLogo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.otherLinks {
+    display: flex;
+    gap: 10px;
+    
+}
+
+.firstContentLeft {
+    display: flex;
+    flex-direction: column;
+}
+
+.firstContentRight {
+    display: flex;
+}
+
+ .firstContent {
+    display: flex;
+    margin-top: 40px;
+    gap: 50px;
+    margin: 32px;
+ }
+
+ #catMeme {
+    width: 400px;
+    height: auto;
+ }
+
+ #opener,
+ #description {
+    margin: 2px;
+ }
+
+ #opener {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+ }
+
+ #signUp {
+    width: 80px;
+ }
